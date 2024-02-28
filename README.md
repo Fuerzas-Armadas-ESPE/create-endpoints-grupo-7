@@ -1,92 +1,73 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nBlq10V3)
-# Blog Personal Nest
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+</p>
 
-![Blog Personal Nest](img/image.png)
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
+<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
+    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-Este es un proyecto de blog personal desarrollado con NestJS.
+## Description
 
-## Sugerencia
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-<p style="text-align: justify">¡Antes de clonar o realizar un fork de este repositorio, te animamos a que intentes crear el proyecto desde cero siguiendo el tutorial!</p>
+## Installation
 
-## Tutorial
+```bash
+$ npm install
+```
 
-<p style="text-align: justify">Si deseas aprender a implementar autenticación en un blog personal con NestJS, te invitamos a seguir el tutorial en el siguiente enlace: </p> 
+## Running the app
 
-- [**Tutorial:** Implementación de un Blog Personal con Nest.js](/Tutoriales/tutorial.md)
+```bash
+# development
+$ npm run start
 
-- [**Tutorial:** Implementación de Autenticación en un Blog Personal con Nest.js](/Tutoriales/tutorial-auth.md)
+# watch mode
+$ npm run start:dev
 
-- [**Tutorial:** Implementación de Docker y Docker Compose en un Blog Personal con Nest.js](/Tutoriales/tutorial-docker.md)
+# production mode
+$ npm run start:prod
+```
 
-- [**Tutorial:** Implementación de MongoDB en un Blog Personal con Nest.js](/Tutoriales/tutorial-connection-database.md)
+## Test
 
-- [**Tutorial:** Implementación de Peticiones Get, Post, Put, Delete](/Tutoriales/tutorial-peticiones.md)
+```bash
+# unit tests
+$ npm run test
 
-- [**Tutorial:** Desarrollo de Endpoints RESTful en Nest.js](/Tutoriales/tutorial-restful.md)
+# e2e tests
+$ npm run test:e2e
 
-<!-- - [**Tutorial:** Implementación de Pruebas Unitarias en un Blog Personal con Nest.js](/Tutoriales/tutorial-pruebas.md) -->
+# test coverage
+$ npm run test:cov
+```
 
-## Descripción
+## Support
 
-<p style="text-align: justify"> Este proyecto es un blog personal desarrollado utilizando el framework NestJS. Permite a los usuarios realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) en publicaciones. La aplicación sigue una arquitectura modular y está diseñada siguiendo los principios de una API RESTful. </p>
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Funcionalidades
+## Stay in touch
 
-- Crear una nueva publicación
-- Leer una publicación existente
-- Actualizar una publicación existente
-- Eliminar una publicación existente
+- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
 
-## Tecnologías utilizadas
+## License
 
-- NestJS
-- TypeScript
-- UUID
-- Docker
-- Docker Compose
-- MongoDB
-
-## Instalación
-
-- Clona este repositorio: git clone `https://github.com/statick88/blogpersonalnest`
-- Instala las dependencias: npm install
-
-## Uso
-
-- Inicia el servidor de desarrollo utilizando docker desktop: `docker compose up -d`
-- Realiza las peticiones HTTP utilizando tu herramienta favorita como Thunder Client.
-
-## Endpoints
-
-- GET /posts: Obtener todas las publicaciones
-- GET /posts/:id: Obtener una publicación por su ID
-- POST /posts: Crear una nueva publicación
-- PUT /posts/:id: Actualizar una publicación existente
-- DELETE /posts/:id: Eliminar una publicación existente
-
-<!-- ## Autenticación
-
-Para proteger las rutas y los recursos, se ha implementado la autenticación mediante tokens JWT (JSON Web Tokens). 
-
-Debes obtener un token de acceso enviando una solicitud POST a `/auth/login` con las credenciales de usuario. Luego, incluye este token en la cabecera Authorization de tus solicitudes HTTP utilizando el esquema Bearer. -->
-
-## Mejoras Futuras
-
-- [✅] Implementación de autenticación y autorización.
-- [✅] Implementación de Docker y Docker Compose.
-- [✅] Implementación de MongoDB para almacenar las publicaciones.
-- [✅] Implementación de peticiones GET, POST, PUT, DELETE.
-- [❌] Implementación de comentarios en las publicaciones.
-- [❌] Mejorar la validación de datos en las solicitudes POST y PUT.
-- [❌] Implementación de pruebas unitarias y de integración.
-- [❌] Implementación de un front-end utilizando Angular, React o Vue.js.
-
-## Contribuyendo
-
-<p style="text-align: justify">¡Las contribuciones son bienvenidas! Si tienes alguna sugerencia, mejora o corrección, por favor crea un pull request.</p>
-
-## Licencia
-
-[MIT](LICENSE)
+Nest is [MIT licensed](LICENSE).
