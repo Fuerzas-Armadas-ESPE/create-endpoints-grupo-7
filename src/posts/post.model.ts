@@ -8,9 +8,9 @@ export interface Post extends Document {
 
 export const PostSchema = new Schema<Post>(
   {
-    _id: { type: Schema.Types.ObjectId, auto: true }, // Definir explícitamente _id como ObjectId
+    _id: { type: Schema.Types.ObjectId, auto: true }, 
     title: { type: String, required: true },
     content: { type: String, required: true },
   },
   { timestamps: true },
-); // Añadir timestamps para createdAt y updatedAt
+); 
